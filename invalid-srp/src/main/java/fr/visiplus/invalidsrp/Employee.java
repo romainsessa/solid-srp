@@ -7,10 +7,11 @@ public class Employee {
 	private int workedHoursPerDay = 8; // nombre d'heures travaillees par jour
 	
 	private int calculateHoursPerWeek() {
-		return daysPerWeek * workedHoursPerDay;
+		return daysPerWeek * workedHoursPerDay; // process
 	}
 	
 	public int provideToEmployee() {
+		System.out.println("Hello employee");
 		return calculateHoursPerWeek();
 	}
 	
