@@ -9,7 +9,8 @@ public class EmployeeProvider {
 	}
 	
 	public int provideHoursPerWeek() {
-		return employeeData.getDaysPerWeek() * employeeData.getHoursPerDays();
+		System.out.println("To Employee");
+		return employeeData.getDaysPerWeek() * employeeData.getHoursPerDays(); // process
 	}
 
 }
